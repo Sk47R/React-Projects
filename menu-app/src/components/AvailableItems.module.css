@@ -1,0 +1,16 @@
+.menu__main {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  padding-left: 3rem;
+  align-items: center;
+
+  /* grid-column-gap: 10rem; */
+  /* width: 90rem; */
+}
+
+.menu__list {
+  margin-top: 3rem;
+}
+.menu__main li {
+  list-style: none;
+}

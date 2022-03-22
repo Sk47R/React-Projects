@@ -1,0 +1,79 @@
+.tour__section-card {
+  width: 43rem;
+  /* background-color: antiquewhite; */
+  -webkit-box-shadow: 0 0 10px #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+.tour__section-image img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 25rem;
+  width: 100%;
+}
+.tour__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem 0;
+}
+.tour__section-heading h3 {
+  font-size: 2rem;
+  letter-spacing: 0.01rem;
+}
+.tour__section-price p {
+  font-size: 2rem;
+  background-color: #e14e4e;
+  color: #fff;
+  padding: 0.5rem 0.5rem;
+}
+
+.tour__section-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  width: 100%;
+}
+
+.section__tour-description {
+  width: 100%;
+  padding: 1rem 1rem;
+}
+
+.section__tour-description p {
+  font-size: 1.7rem;
+  letter-spacing: 0.01rem;
+}
+.tour__section-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tour__section-button button {
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid #e14e4e;
+  color: #e14e4e;
+  padding: 1rem 2rem;
+  margin: 2rem 0;
+  font-size: 2rem;
+  transition: all 0.5s ease;
+}
+.tour__section-button button:hover {
+  background-color: #e14e4e;
+  color: #fff;
+}
+
+.read {
+  background-color: transparent;
+  border: none;
+  font-size: 1.7rem;
+  margin-left: 1rem;
+  padding: 0.5rem 0.6rem;
+  color: #e14e4e;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.read:hover {
+  background-color: rgba(255, 78, 78, 0.2);
+}

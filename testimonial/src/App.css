@@ -1,0 +1,22 @@
+.testimonial {
+  height: 98.5vh;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial_div {
+  width: 45rem;
+  text-align: center;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  height: 70vh;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.testimonial_div h1 {
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+}

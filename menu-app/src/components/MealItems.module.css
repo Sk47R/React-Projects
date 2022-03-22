@@ -1,0 +1,61 @@
+.menu__list-div {
+  display: flex;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1rem;
+  width: 65rem;
+}
+
+.menu__list-image img {
+  height: 20rem;
+  width: 30rem;
+  border: 5px solid #ed5a5a;
+  border-radius: 8px;
+}
+.menu__list-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  padding-left: 2rem;
+}
+
+.menu__list-item__heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(201, 201, 201);
+  margin-bottom: 0.5rem;
+}
+.menu__list-heading h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08rem;
+}
+.menu__list-price p {
+  font-size: 1.8rem;
+  color: #ed5a5a;
+  font-weight: 600;
+}
+.menu__list-item__description p {
+  font-size: 1.5rem;
+  color: #8c8c8c;
+  letter-spacing: 0.01rem;
+}
+.menu__list-add {
+  text-align: right;
+}
+.menu__list-add button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  margin-right: 1.2rem;
+  font-size: 1.8rem;
+  color: #fff;
+  background-color: #ed5a5a;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}

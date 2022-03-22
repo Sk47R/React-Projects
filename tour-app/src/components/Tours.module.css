@@ -1,0 +1,38 @@
+.tours__heading {
+  text-align: center;
+  font-size: 4rem;
+}
+.tours__heading-border {
+  background-color: rgb(225, 78, 78);
+  height: 0.7rem;
+  width: 10rem;
+  margin: auto;
+}
+
+.no__tour {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+  margin: 2rem 0;
+}
+.no__tour h1 {
+  font-size: 3.5rem;
+  letter-spacing: 0.1rem;
+  margin: 1rem 0;
+}
+.no__tour button {
+  letter-spacing: 0.1rem;
+  font-size: 2rem;
+  background-color: transparent;
+  border: 2px solid #e14e4e;
+  color: #e14e4e;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.no__tour button:hover {
+  background-color: #e14e4e;
+  color: #fff;
+}

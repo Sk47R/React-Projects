@@ -1,0 +1,21 @@
+.form {
+  text-align: right;
+}
+.form input {
+  margin-right: 1rem;
+  font-size: 1.6rem;
+  padding-left: 0.5rem;
+}
+.form label {
+  font-size: 1.6rem;
+  padding-right: 1rem;
+}
+.form button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.input {
+  border: 2px solid black;
+}
